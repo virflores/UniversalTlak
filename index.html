@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UniversalTalk | Comunicación sin barreras</title>
+  <link rel="icon" type="image/jpeg" href="logo_ut1.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav container">
+      <a href="#inicio" class="logo"><img src="logo_ut1.jpg" alt="Logo de UniversalTalk" class="logo-img"> UniversalTalk</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#funciones">Características</a>
+        <a href="#por-que">¿Por qué nosotros?</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-bg">
+        <div class="hero-bg-slide active" data-slide="1"></div>
+        <div class="hero-bg-slide" data-slide="2"></div>
+        <div class="hero-bg-slide" data-slide="3"></div>
+      </div>
+      <div class="container hero-content reveal">
+        <div class="badge">NEUROTEC · PROYECTO 2026</div>
+        <h1>La comunicación<br><span>no debería tener barreras.</span></h1>
+        <p>
+          UniversalTalk es una aplicación móvil inclusiva que combina traducción de voz
+          en tiempo real con reconocimiento de Lengua de Señas Argentina mediante inteligencia artificial.
+        </p>
+        <div class="hero-buttons">
+          <a href="#como-funciona" class="btn primary">Descubrir la app <span aria-hidden="true">→</span></a>
+          <a href="#inclusion" class="btn secondary">Conocé nuestra misión</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats container reveal">
+      <div><strong>2 s</strong><span>Tiempo objetivo de respuesta</span></div>
+      <div><strong>90%+</strong><span>Precisión objetivo</span></div>
+      <div><strong>3+</strong><span>Idiomas en la primera versión</span></div>
+      <div><strong>85%+</strong><span>Satisfacción esperada</span></div>
+    </section>
+
+    <section class="section container" id="como-funciona">
+      <div class="section-title reveal">
+        <span class="eyebrow">¿QUÉ ES UNIVERSALTALK?</span>
+        <h2>Una app, dos formas de comunicación.</h2>
+        <p>El objetivo es facilitar conversaciones naturales entre personas oyentes y personas sordas, usando el celular y auriculares inalámbricos convencionales.</p>
+      </div>
+
+      <div class="flow">
+        <article class="feature-card reveal">
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v4M8 22h8"/></svg>
+          </div>
+          <h3>Voz → traducción</h3>
+          <p>La aplicación capta la voz mediante el micrófono, procesa el audio y traduce el contenido al idioma seleccionado.</p>
+        </article>
+        <div class="arrow reveal" aria-hidden="true">→</div>
+        <article class="feature-card reveal">
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg>
+          </div>
+          <h3>Procesamiento inteligente</h3>
+          <p>UniversalTalk combina reconocimiento de voz, traducción y visión artificial para interpretar la información.</p>
+        </article>
+        <div class="arrow reveal" aria-hidden="true">→</div>
+        <article class="feature-card reveal">
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 11V6a2 2 0 0 0-4 0M14 10V4a2 2 0 0 0-4 0v2M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 11a2 2 0 0 1 4 0v3a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.9-5.9-2.4L3.4 16a2 2 0 0 1 3.2-2.4L8 15"/></svg>
+          </div>
+          <h3>LSA → voz o texto</h3>
+          <p>La cámara reconoce gestos de Lengua de Señas Argentina y los convierte en voz sintetizada o texto.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="dark-section" id="funciones">
+      <div class="container">
+        <div class="section-title light reveal">
+          <span class="eyebrow">FUNCIONES PRINCIPALES</span>
+          <h2>Diseñada para conversar,<br>no para complicar.</h2>
+        </div>
+        <div class="features-grid">
+          <article class="big-feature reveal">
+            <img class="feature-photo" src="feat-traduccion.jpg" alt="Dos personas conversando en idiomas distintos, con globos de traducción entre ellas" loading="lazy">
+            <h3>Traducción bidireccional</h3>
+            <p>Permite que las personas puedan comunicarse en distintos idiomas sin interrumpir constantemente la conversación.</p>
+          </article>
+          <article class="big-feature reveal">
+            <img class="feature-photo" src="feat-lsa.jpg" alt="Celular con la cámara reconociendo una seña de la Lengua de Señas Argentina" loading="lazy">
+            <h3>Reconocimiento de LSA</h3>
+            <p>La cámara del celular se utiliza para reconocer gestos de la Lengua de Señas Argentina mediante visión artificial.</p>
+          </article>
+          <article class="big-feature reveal">
+            <img class="feature-photo" src="feat-audio-texto.jpg" alt="Celular mostrando texto traducido junto a un parlante que emite audio" loading="lazy">
+            <h3>Audio y texto</h3>
+            <p>La información procesada puede convertirse en voz sintetizada o visualizarse como texto según la necesidad del usuario.</p>
+          </article>
+          <article class="big-feature reveal">
+            <img class="feature-photo" src="feat-hardware.jpg" alt="Celular y auriculares inalámbricos conectados por Bluetooth" loading="lazy">
+            <h3>Hardware accesible</h3>
+            <p>La propuesta utiliza el celular del usuario y auriculares inalámbricos estándar mediante Bluetooth.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="inclusion" id="inclusion">
+      <div class="container inclusion-content reveal">
+        <span class="eyebrow">NUESTRA MISIÓN</span>
+        <h2>La innovación tiene más valor cuando incluye a todos.</h2>
+        <p>
+          UniversalTalk nace para enfrentar la doble barrera que pueden experimentar las personas sordas:
+          la idiomática y la de modalidad comunicativa. Su propuesta busca ser accesible, de bajo costo
+          y útil en ámbitos educativos, médicos, laborales y sociales.
+        </p>
+        <div class="quote">“Un paso hacia un futuro tecnológicamente accesible y verdaderamente sin barreras.”</div>
+      </div>
+    </section>
+
+    <section class="section container" id="por-que">
+      <div class="section-title reveal">
+        <span class="eyebrow">¿POR QUÉ UNIVERSALTALK?</span>
+        <h2>Una propuesta diferente.</h2>
+        <p>Según el documento del proyecto, las soluciones comerciales existentes se concentran principalmente en traducción de idiomas y no integran el reconocimiento de LSA en el mismo sistema.</p>
+      </div>
+      <div class="comparison reveal">
+        <div class="comparison-row header-row">
+          <span>Característica</span><span>UniversalTalk</span><span>Soluciones tradicionales</span>
+        </div>
+        <div class="comparison-row"><span>Traducción en tiempo real</span><b>✓</b><span>✓</span></div>
+        <div class="comparison-row"><span>Comunicación bidireccional</span><b>✓</b><span>Parcial / variable</span></div>
+        <div class="comparison-row"><span>Adaptado a LSA</span><b>✓</b><span>✕</span></div>
+        <div class="comparison-row"><span>Usa hardware estándar</span><b>✓</b><span>Variable</span></div>
+        <div class="comparison-row"><span>Enfoque inclusivo</span><b>✓</b><span>Limitado</span></div>
+      </div>
+    </section>
+
+    <section class="cta reveal">
+      <div class="container">
+        <h2>Comunicar. Entender. Incluir.</h2>
+        <p>UniversalTalk busca transformar la tecnología en un puente entre personas.</p>
+        <a href="#inicio" class="btn primary">Volver al inicio</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <a href="#inicio" class="logo"><img src="logo_ut1.jpg" alt="" class="logo-img"> UniversalTalk</a>
+        <p>Proyecto desarrollado por NeuroTec · 2026</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
